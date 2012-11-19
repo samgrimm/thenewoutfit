@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Bodytype:</b>
+  <%= @style.bodytype %>
+</p>
+
+<p>
+  <b>Need:</b>
+  <%= @style.need %>
+</p>
+
+<p>
+  <b>Texture:</b>
+  <%= @style.texture %>
+</p>
+
+<p>
+  <b>Color:</b>
+  <%= @style.color %>
+</p>
+
+<p>
+  <b>Statement:</b>
+  <%= @style.statement %>
+</p>
+
+
+<%= link_to 'Edit', edit_style_path(@style) %> |
+<%= link_to 'Back', styles_path %>
