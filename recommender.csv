@@ -1,0 +1,81 @@
+link,need,texture,color,statement,bodytype
+http://astore.amazon.com/apple-1-20,Casual,Rich,Muted,Shoe,Apple
+http://astore.amazon.com/apple-2-20,Casual,Rich,Muted,Jewelry,Apple
+http://astore.amazon.com/apple-3-20,Casual,Rich,Bright,Shoe,Apple
+http://astore.amazon.com/apple-4-20,Casual,Rich,Bright,Jewelry,Apple
+http://astore.amazon.com/apple-5-20,Casual,Soft,Muted,Shoe,Apple
+http://astore.amazon.com/apple6-20,Casual,Soft,Muted,Jewelry,Apple
+http://astore.amazon.com/apple-7-20,Casual,Soft,Bright,Shoe,Apple
+http://astore.amazon.com/apple-8-20,Casual,Soft,Bright,Jewelry,Apple
+http://astore.amazon.com/apple-9-20,Office,Rich,Muted,Shoe,Apple
+http://astore.amazon.com/apple-10-20,Office,Rich,Muted,Jewelry,Apple
+http://astore.amazon.com/apple-11-20,Office,Rich,Bright,Shoe,Apple
+http://astore.amazon.com/apple-12-20,Office,Rich,Bright,Jewelry,Apple
+http://astore.amazon.com/apple-13-20,Office,Soft,Muted,Shoe,Apple
+http://astore.amazon.com/apple-14-20,Office,Soft,Muted,Jewelry,Apple
+http://astore.amazon.com/apple-15-20,Office,Soft,Bright,Shoe,Apple
+http://astore.amazon.com/apple-16-20,Office,Soft,Bright,Jewelry,Apple
+http://astore.amazon.com/pear-1-20,Casual,Rich,Muted,Shoe,Pear
+http://astore.amazon.com/pear-2-20,Casual,Rich,Muted,Jewelry,Pear
+http://astore.amazon.com/pear-3-20,Casual,Rich,Bright,Shoe,Pear
+http://astore.amazon.com/pear-4-20,Casual,Rich,Bright,Jewelry,Pear
+http://astore.amazon.com/pear-5-20,Casual,Soft,Muted,Shoe,Pear
+http://astore.amazon.com/pear-6-20,Casual,Soft,Muted,Jewelry,Pear
+http://astore.amazon.com/pear-7-20,Casual,Soft,Bright,Shoe,Pear
+http://astore.amazon.com/pear-8-20,Casual,Soft,Bright,Jewelry,Pear
+http://astore.amazon.com/pear-9-20,Office,Rich,Muted,Shoe,Pear
+http://astore.amazon.com/pear-10-20,Office,Rich,Muted,Jewelry,Pear
+http://astore.amazon.com/pear-11-20,Office,Rich,Bright,Shoe,Pear
+http://astore.amazon.com/pear-12-20,Office,Rich,Bright,Jewelry,Pear
+http://astore.amazon.com/pear-13-20,Office,Soft,Muted,Shoe,Pear
+http://astore.amazon.com/pear-15-20,Office,Soft,Muted,Jewelry,Pear
+http://astore.amazon.com/pear-14-20,Office,Soft,Bright,Shoe,Pear
+http://astore.amazon.com/pear-16-20,Office,Soft,Bright,Jewelry,Pear
+http://astore.amazon.com/triangle-1-20,Casual,Rich,Muted,Shoe,Inverted Triangle
+http://astore.amazon.com/triangle-2-20,Casual,Rich,Muted,Jewelry,Inverted Triangle
+http://astore.amazon.com/triangle-3-20,Casual,Rich,Bright,Shoe,Inverted Triangle
+http://astore.amazon.com/triangle-4-20,Casual,Rich,Bright,Jewelry,Inverted Triangle
+http://astore.amazon.com/triangle-5-20,Casual,Soft,Muted,Shoe,Inverted Triangle
+http://astore.amazon.com/triangle-6-20,Casual,Soft,Muted,Jewelry,Inverted Triangle
+http://astore.amazon.com/triangle-7-20,Casual,Soft,Bright,Shoe,Inverted Triangle
+http://astore.amazon.com/triangle-8-20,Casual,Soft,Bright,Jewelry,Inverted Triangle
+http://astore.amazon.com/triangle-9-20,Office,Rich,Muted,Shoe,Inverted Triangle
+http://astore.amazon.com/triangle-10-20,Office,Rich,Muted,Jewelry,Inverted Triangle
+http://astore.amazon.com/triangle-11-20,Office,Rich,Bright,Shoe,Inverted Triangle
+http://astore.amazon.com/triangle-12-20,Office,Rich,Bright,Jewelry,Inverted Triangle
+http://astore.amazon.com/triangle-13-20,Office,Soft,Muted,Shoe,Inverted Triangle
+http://astore.amazon.com/triangle-15-20,Office,Soft,Muted,Jewelry,Inverted Triangle
+http://astore.amazon.com/triangle-16-20,Office,Soft,Bright,Shoe,Inverted Triangle
+http://astore.amazon.com/triangle-14-20,Office,Soft,Bright,Jewelry,Inverted Triangle
+http://astore.amazon.com/hourglass-1-20,Casual,Rich,Muted,Shoe,Hourglass
+http://astore.amazon.com/hourglass-2-20,Casual,Rich,Muted,Jewelry,Hourglass
+http://astore.amazon.com/hourglass-3-20,Casual,Rich,Bright,Shoe,Hourglass
+http://astore.amazon.com/hourglass-4-20,Casual,Rich,Bright,Jewelry,Hourglass
+http://astore.amazon.com/hourglass-5-20,Casual,Soft,Muted,Shoe,Hourglass
+http://astore.amazon.com/hourglass-6-20,Casual,Soft,Muted,Jewelry,Hourglass
+http://astore.amazon.com/hourglass-7-20,Casual,Soft,Bright,Shoe,Hourglass
+http://astore.amazon.com/hourglass-8-20,Casual,Soft,Bright,Jewelry,Hourglass
+http://astore.amazon.com/hourglass-9-20,Office,Rich,Muted,Shoe,Hourglass
+http://astore.amazon.com/hourglass-10-20,Office,Rich,Muted,Jewelry,Hourglass
+http://astore.amazon.com/hourglass-11-20,Office,Rich,Bright,Shoe,Hourglass
+http://astore.amazon.com/hourglass-12-20,Office,Rich,Bright,Jewelry,Hourglass
+http://astore.amazon.com/hourglass-13-20,Office,Soft,Muted,Shoe,Hourglass
+http://astore.amazon.com/hourglass-14-20,Office,Soft,Muted,Jewelry,Hourglass
+http://astore.amazon.com/hourglass-15-20,Office,Soft,Bright,Shoe,Hourglass
+http://astore.amazon.com/hourglass-16-20,Office,Soft,Bright,Jewelry,Hourglass
+http://astore.amazon.com/straight-1-20,Casual,Rich,Muted,Shoe,Rectangle
+http://astore.amazon.com/straight-2-20,Casual,Rich,Muted,Jewelry,Rectangle
+http://astore.amazon.com/straight-3-20,Casual,Rich,Bright,Shoe,Rectangle
+http://astore.amazon.com/straight-4-20,Casual,Rich,Bright,Jewelry,Rectangle
+http://astore.amazon.com/straight-5-20,Casual,Soft,Muted,Shoe,Rectangle
+http://astore.amazon.com/straight-6-20,Casual,Soft,Muted,Jewelry,Rectangle
+http://astore.amazon.com/straight-7-20,Casual,Soft,Bright,Shoe,Rectangle
+http://astore.amazon.com/straight-8-20,Casual,Soft,Bright,Jewelry,Rectangle
+http://astore.amazon.com/straight-9-20,Office,Rich,Muted,Shoe,Rectangle
+http://astore.amazon.com/straight-10-20,Office,Rich,Muted,Jewelry,Rectangle
+http://astore.amazon.com/straight-11-20,Office,Rich,Bright,Shoe,Rectangle
+http://astore.amazon.com/straight-12-20,Office,Rich,Bright,Jewelry,Rectangle
+http://astore.amazon.com/straight-13-20,Office,Soft,Muted,Shoe,Rectangle
+http://astore.amazon.com/straight-15-20,Office,Soft,Muted,Jewelry,Rectangle
+http://astore.amazon.com/straight-14-20,Office,Soft,Bright,Shoe,Rectangle
+http://astore.amazon.com/straight-16-20,Office,Soft,Bright,Jewelry,Rectangle

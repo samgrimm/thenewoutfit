@@ -1,8 +1,6 @@
 class Style < ActiveRecord::Base
   attr_accessible :bodytype, :color, :need, :statement, :texture
   
-  has_many :recommenders
-  
   
   validates :bodytype, :presence => true
   validates :color, :presence => true

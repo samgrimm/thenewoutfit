@@ -1,4 +1,4 @@
-<%= form_for(@style) do |f| %>
+<%= simple_form_for(@style, :html => {:class => 'form-horizontal' }) do |f| %>
   <% if @style.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@style.errors.count, "error") %> prohibited this style from being saved:</h2>
@@ -10,28 +10,11 @@
       </ul>
     </div>
   <% end %>
-
-  <div class="field">
-    <%= f.label :bodytype %><br />
-    <%= f.text_field :bodytype %>
-  </div>
-  <div class="field">
-    <%= f.label :need %><br />
-    <%= f.text_field :need %>
-  </div>
-  <div class="field">
-    <%= f.label :texture %><br />
-    <%= f.text_field :texture %>
-  </div>
-  <div class="field">
-    <%= f.label :color %><br />
-    <%= f.text_field :color %>
-  </div>
-  <div class="field">
-    <%= f.label :statement %><br />
-    <%= f.text_field :statement %>
-  </div>
-  <div class="actions">
-    <%= f.submit %>
-  </div>
-<% end %>
+	<%= f.input :bodytype, :collection => ["Apple", "Pear", "Hourglass", "Rectangle", "Inverted triangle"], :as => :radio %> 	
+ 	<%= f.input :need, :collection => ["Office", "Casual"], :as => :radio %>
+ 	<%=f.input :texture, :collection => ["Rich", "Soft"], :as => :radio%>
+ 	<%=f.input :color, :collection => ["Bright", "Muted"], :as => :radio %>
+ 	<%=f.input :statement, :collection => ["Shoe", "Jewelry"], :as => :radio %>
+ 	<%= f.button :submit %>
+  <% end %>
+  

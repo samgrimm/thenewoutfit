@@ -19,7 +19,8 @@ class StylesController < ApplicationController
    t = @style.texture
    c = @style.color
    st = @style.statement   
-   @recommender = Recommender.with_bodytype(params[:bt]).with_need(params[:n]).with_texture(params[:t]).with_color(params[:c]).with_statement(params[:st])
+   @recommender = Recommender.where(:bodytype => params[:bt], :need => params[:n], :texture => params[:t], :color => params[:c], :statement => params[:st])
+
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @style }
