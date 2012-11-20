@@ -1,12 +1,7 @@
-<!doctype html>
-<html>
-	<head>
-		<title>Map my style - finding your true style north | Home </title>
-</head>
-<body>
+
 	<h1>Let us help you find your personal style and have fun shopping online!</h1>
 	<p>
 	We can help you find clothes that fit your budget, lifestyle, nad body, without spending hours at the mall or in front of the computer.	
 	</p>
-</body>
-</html>
+	
+	<%= link_to "Sign up now!", '#', :class => "btn btn-primary btn-large" %>

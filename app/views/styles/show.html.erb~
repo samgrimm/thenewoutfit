@@ -7,7 +7,6 @@
 <p>
   <b>Bodytype:</b>
   <%= @style.bodytype %>
-  <%= @recommender.bodytype %>
   
 </p>
 

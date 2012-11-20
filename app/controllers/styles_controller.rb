@@ -14,12 +14,10 @@ class StylesController < ApplicationController
   # GET /styles/1.json
   def show
    @style = Style.find(params[:id])
-   bt = @style.bodytype
-   n = @style.need
-   t = @style.texture
-   c = @style.color
-   st = @style.statement   
-   @recommender = Recommender.with_bodytype(params[:bt]).with_need(params[:n]).with_texture(params[:t]).with_color(params[:c]).with_statement(params[:st])
+   
+   @recommender = Recommender.where("bodytype = :bodytype AND need = :need AND texture = :texture AND color = :color AND statement = :statement", 
+   								[:bodytype => @style.bodytype, :need => @style.need, :texture => @style.texture, :color => @style.color, :statement => @style.statement]).first
+
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @style }
