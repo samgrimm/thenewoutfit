@@ -1,4 +1,4 @@
-<%= simple_form_for(@style, :html => {:class => 'form-horizontal' }) do |f| %>
+<%= simple_form_for(@style, :html => {:class => 'form-vertical' }) do |f| %>
   <% if @style.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@style.errors.count, "error") %> prohibited this style from being saved:</h2>
@@ -10,11 +10,12 @@
       </ul>
     </div>
   <% end %>
-	<%= f.input :bodytype, :collection => ["Apple", "Pear", "Hourglass", "Rectangle", "Inverted triangle"], :as => :radio %> 	
- 	<%= f.input :need, :collection => ["Office", "Casual"], :as => :radio %>
- 	<%=f.input :texture, :collection => ["Rich", "Soft"], :as => :radio%>
- 	<%=f.input :color, :collection => ["Bright", "Muted"], :as => :radio %>
- 	<%=f.input :statement, :collection => ["Shoe", "Jewelry"], :as => :radio %>
- 	<%= f.button :submit %>
+		
+	<%= f.input :bodytype, :label => 'Choose the shape that best describes your body type', :collection => ["Apple", "Pear", "Hourglass", "Rectangle", "Inverted triangle"], :as => :radio %> 	
+ 	<%= f.input :need, :label => 'For what occasion are we helping you shop today?',:collection => ["Office", "Casual"], :as => :radio %>
+ 	<%=f.input :texture, :label => 'What kind of textures do you prefer?', :collection => ["Rich", "Soft"], :as => :radio%>
+ 	<%=f.input :color, :label => 'What groups of color are you usually drawn to?', :collection => ["Bright", "Muted"], :as => :radio %>
+ 	<%=f.input :statement, :label => 'What kind of statement piece do you prefer for you outfits?', :collection => ["Shoe", "Jewelry"], :as => :radio %>
+ 	<%= f.submit 'Create Recommendation'%>
   <% end %>
   

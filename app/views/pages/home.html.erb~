@@ -1,7 +1,20 @@
 
-	<h1>Let us help you find your personal style and have fun shopping online!</h1>
+	<h2>Let us help you find your personal style and have fun shopping online!</h2>
 	<p>
-	We can help you find clothes that fit your budget, lifestyle, nad body, without spending hours at the mall or in front of the computer.	
+	We can help you find clothes that fit your budget, lifestyle, and body, without spending hours at the mall or in front of the computer.	
+	</p>	
+	<p>
+	We are still working to make this the perfect experience for you! 
+	</p>
+	<p>
+	But come in and take a look at what is in store
 	</p>
 	
-	<%= link_to "Sign up now!", '#', :class => "btn btn-primary btn-large" %>
+ 	<%= link_to "Personalized Outfit", newstyle_path, :class => "btn btn-primary btn-large" %> </p>
+ 	
+ 	<p></p>
+ 	<p></p>
+ 	<p></p>
+ 	<p></p>
+ 	<p></p>
+ 	

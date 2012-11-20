@@ -14,10 +14,18 @@ class StylesController < ApplicationController
   # GET /styles/1
   # GET /styles/1.json
   def show
+	@title = "Map My Style - Your Personalized Recommendation"   
    @style = Style.find(params[:id])
    
-   @recommender = Recommender.where("bodytype = :bodytype AND need = :need AND texture = :texture AND color = :color AND statement = :statement", 
-   								[:bodytype => @style.bodytype, :need => @style.need, :texture => @style.texture, :color => @style.color, :statement => @style.statement]).first
+   bt = @style.bodytype
+   n = @style.need
+   t = @style.texture
+   c = @style.color
+   st = @style.statement
+   
+   @recommender = Recommender.find_by_bodytype_and_need_and_texture_and_color_and_statement(bt, n, t, c, st)
+   
+   link = @recommender.link
 
     respond_to do |format|
       format.html # show.html.erb
