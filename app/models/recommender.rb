@@ -1,6 +1,6 @@
 class Recommender < ActiveRecord::Base
   attr_accessible :bodytype, :color, :link, :need, :statement, :texture
   
-  belongs_to :style
+ has_and_belongs_to_many :styles
   
 end
