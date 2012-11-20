@@ -11,7 +11,7 @@ render_views
     
     it "should have the right title" do
     get 'new'
-    response.shouls have_selector("title", :content => "Sign up")
+    response.should have_selector("title", :content => "Sign up")
     end
   end
 

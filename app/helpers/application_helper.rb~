@@ -1,13 +1,12 @@
 module ApplicationHelper
 
-	#return a title on a per-page basis
 	def title
-	base_title = "Map my style - finding your true style north"
-	if @title.nil?
-		base_title
-	else
-		"#{base_title} | #{@title}"
+		base_title = "Map My Style"
+		if @title.nil?
+			base_title
+		else
+			"#{base_title} | #{@title}"
+		end
 	end
-	end
-	
+
 end

@@ -1,4 +1,5 @@
 class StylesController < ApplicationController
+render_views  
   # GET /styles
   # GET /styles.json
   def index
@@ -16,7 +17,7 @@ class StylesController < ApplicationController
    @style = Style.find(params[:id])
    
    @recommender = Recommender.where("bodytype = :bodytype AND need = :need AND texture = :texture AND color = :color AND statement = :statement", 
-   								[:bodytype => @style.bodytype, :need => @style.need, :texture => @style.texture, :color => @style.color, :statement => @style.statement]).all
+   								[:bodytype => @style.bodytype, :need => @style.need, :texture => @style.texture, :color => @style.color, :statement => @style.statement]).first
 
     respond_to do |format|
       format.html # show.html.erb
@@ -26,7 +27,9 @@ class StylesController < ApplicationController
 
   # GET /styles/new
   # GET /styles/new.json
+  
   def new
+	 @title = "New Style"    
     @style = Style.new
 
     respond_to do |format|

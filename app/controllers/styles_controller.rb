@@ -1,4 +1,5 @@
 class StylesController < ApplicationController
+
   # GET /styles
   # GET /styles.json
   def index
@@ -26,7 +27,9 @@ class StylesController < ApplicationController
 
   # GET /styles/new
   # GET /styles/new.json
+  
   def new
+	 @title = "New Style"    
     @style = Style.new
 
     respond_to do |format|
