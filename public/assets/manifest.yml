@@ -1,4 +1,8 @@
 ---
+apple-touch-icon-114x114-precomposed.png: apple-touch-icon-114x114-precomposed-9ba422f94eb018284338e896a50a01e1.png
+apple-touch-icon-144x144-precomposed.png: apple-touch-icon-144x144-precomposed-9ba422f94eb018284338e896a50a01e1.png
+apple-touch-icon-72x72-precomposed.png: apple-touch-icon-72x72-precomposed-9ba422f94eb018284338e896a50a01e1.png
+apple-touch-icon-precomposed.png: apple-touch-icon-precomposed-9ba422f94eb018284338e896a50a01e1.png
 rails.png: rails-be8732dac73d845ac5b142c8fb5f9fb0.png
 application.js: application-fbdaadfcf0bb7bb383cee6f4c1e1c57b.js
 application.css: application-9b102f3d65ffd824f6d66380b37af1d3.css
