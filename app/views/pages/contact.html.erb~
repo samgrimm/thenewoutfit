@@ -1,2 +1,2 @@
-<h1>Pages#contact</h1>
-<p>Find me in app/views/pages/contact.html.erb</p>
+<h1>Want to find out more?</h1>
+<p>Please email us at: <%= email_to "MapMyStyle", "samantha.grimm@gmail.com" %> </p>
