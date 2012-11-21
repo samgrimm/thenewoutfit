@@ -6,8 +6,10 @@ Thenewoutfitproject::Application.routes.draw do
   match '/contact', :to => 'pages#contact'
   match '/newstyle', :to => 'styles#new'
   match '/signup', :to => 'users#new'
- root :to => 'pages#home'
+  root :to => 'pages#home'
   resources :styles
+  resources :users
+  
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

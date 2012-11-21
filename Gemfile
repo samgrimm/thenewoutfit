@@ -26,7 +26,7 @@ group :test do
   gem 'autotest-growl'
   gem 'autotest-fsevent'  
   gem 'spork'
-  gem 'factory_girl_rails', :require => false
+  gem 'factory_girl_rails'
   gem 'database_cleaner'
 end
 
