@@ -12,7 +12,7 @@
   <% end %>
 		
 	<%= f.input :name %> 	
- 	<%= f.input :email, :hint => "Don't worry, we won't share!"> 
+ 	<%= f.input :email, :hint => "Don't worry, we won't share!" %> 
  	<%= f.input :password %>
  	<%= f.input :password_confirmation %>
  	<%= f.submit 'Send'%>
