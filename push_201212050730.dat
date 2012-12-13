@@ -1,0 +1,1 @@
+{"klass":"Taps::Push","database_url":"sqlite://db/production.sqlite3","remote_url":"http://heroku:osui59a24am79x@taps19.heroku.com","session_uri":"/sessions/6038944427","stream_state":{},"completed_tables":["schema_migrations","styles"],"table_filter":null,"local_tables_info":{"schema_migrations":6,"styles":0,"recommenders":80,"users":0}}
