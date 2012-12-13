@@ -1,6 +1,15 @@
 
+	<h2><b>	 Here is what we recommend for you </b>	</h2>
+	
+	<p> Click on any item to shop </p>
+	<p> We are still testing our concept, so </p>
+	<p> <%= link_to "Sign up now", signup_path, :class => "btn"  %> to get notified of our launch date!</p>
+	
+	
+<iframe src=<%= @recommender.link %> width="90%" height="700" frameborder="0" scrolling="no"></iframe>
 
 <p id="notice"><%= notice %></p>
+
 <h2> Your Style Choices</h2>
 <p><tr><b>Bodytype:</b>   <%= @style.bodytype %></tr>
 
@@ -8,15 +17,13 @@
 <p><tr><b>Texture:</b> <%= @style.texture %> </tr> </p>
 <p><tr><b>Color:</b> <%= @style.color %> </tr> </p>
 <p><tr><b>Statement:</b> <%= @style.statement %></tr> </p>
+<br></br>
 
-</p>
-<p>
-	<h2><b>	 Here is what we recommend for you </b>	</h2>
+<%= link_to "Change your preferences", edit_style_path, :class => "btn"  %>
+<br></br>
+<br></br>
+<br></br>
+
 	
-	<p> Click on any item to shop </p>
-	<p> <%= link_to "Sign up now", signup_path, :class => "btn"  %> to get notified of our launch date!</p>
-	
-	
-<iframe src=<%= @recommender.link %> width="90%" height="4000" frameborder="0" scrolling="no"></iframe>
 
 
