@@ -19,4 +19,5 @@
 <p> Be one of the first to try out app: <%= link_to "Personalized Outfit", newstyle_path %></p>
 
 <p> Or sign up so we can let you know when new things are coming!</p>
+<br> </br>
 <p><%= link_to "Sign up now!", signup_path, :class => "btn" %> </p>
