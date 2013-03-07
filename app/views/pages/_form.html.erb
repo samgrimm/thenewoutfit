@@ -1,4 +1,4 @@
-<%= simple_form_for(@user, :html => {:class => 'form-inline' }) do |f| %>
+<%= simple_form_for(@user, :html => {:class => 'form-vertical' }) do |f| %>
   <% if @user.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@user.errors.count, "error") %> prohibited this style from being saved:</h2>
@@ -13,8 +13,7 @@
 		
 	
  	<%= f.input :email, :hint => "Don't worry, we won't share!" %> 
-  <%= f.button :submit,'Sign up!', :class => "btn btn-large btn-success"%>
  	
- 	
+ 	<%= f.submit 'Send'%>
   <% end %>
   

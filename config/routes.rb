@@ -6,7 +6,7 @@ Thenewoutfitproject::Application.routes.draw do
   match '/contact', :to => 'pages#contact'
   match '/newstyle', :to => 'styles#new'
   match '/signup', :to => 'users#new'
-  root :to => 'pages#home'
+  root :to => 'users#new'
   resources :styles
   resources :users
   
